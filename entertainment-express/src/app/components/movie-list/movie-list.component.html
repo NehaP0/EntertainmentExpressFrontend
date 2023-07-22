@@ -1,0 +1,16 @@
+<h2>Movies List</h2>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+  </tr>
+  <tr *ngFor="let movie of movies">
+    <td>{{ movie.title }}</td>
+    <td>{{ movie.description }}</td>
+    <td>
+      <button (click)="editMovie(movie)">Edit</button>
+      <button (click)="deleteMovie(movie)">Delete</button>
+    </td>
+  </tr>
+</table>

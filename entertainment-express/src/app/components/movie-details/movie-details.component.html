@@ -1,0 +1,13 @@
+<!-- movie-details.component.html -->
+
+<h2>Add Movie</h2>
+
+<form [formGroup]="newMovieForm" (submit)="onSubmit()">
+  <label for="moviename">Moviename:</label>
+  <input type="text" id="moviename" formControlName="moviename" required>
+
+  <label for="description">Movie Description:</label>
+  <input type="text" id="moviedescription" formControlName="moviedescription" required>  
+
+  <button type="submit">Save</button>
+</form>
