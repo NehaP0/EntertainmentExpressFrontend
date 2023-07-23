@@ -1,0 +1,78 @@
+/* user-details.component.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin: 20px auto;
+    text-align: center; /* Center the heading */
+    font-family: 'Indie Flower', cursive; /* Apply the fun font */
+}
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1); /* Add a strong box shadow */
+    background-color: rgb(194, 190, 190);
+
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea,
+  select {
+    height: 30px; /* Increase the height */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+  }
+
+  /* Add box shadow and background color change on hover */
+    input[type="text"]:hover,
+    input[type="date"]:hover,
+    textarea:hover,
+    select:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 20px;
+  padding: 10px 16px;
+  background-color: lightseagreen;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+
+  }
+  
+  button[type="submit"]:hover {
+    background-color: green;
+  }
+  

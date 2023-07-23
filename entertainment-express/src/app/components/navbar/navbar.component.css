@@ -1,0 +1,33 @@
+/* navbar.component.css */
+
+nav {
+    background-color: orangered;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically in the center */
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 5px; /* Reduce the margin between buttons */
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* Increase the padding to make the buttons larger */
+    border-radius: 5px;
+    background-color: rgb(7, 112, 7);
+    transition: background-color 0.2s ease;
+  }
+  
+  a:hover {
+    background-color: green;
+    cursor: pointer;
+  }
+  

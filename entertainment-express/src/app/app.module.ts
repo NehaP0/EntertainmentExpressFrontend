@@ -11,6 +11,7 @@ import { UserListComponent } from './components/user-list/user-list.component';
 import { UserDetailsComponent } from './components/user-details/user-details.component';
 import { MovieListComponent } from './components/movie-list/movie-list.component';
 import { MovieDetailsComponent } from './components/movie-details/movie-details.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { MovieDetailsComponent } from './components/movie-details/movie-details.
     UserListComponent,
     UserDetailsComponent,
     MovieListComponent,
-    MovieDetailsComponent
+    MovieDetailsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
